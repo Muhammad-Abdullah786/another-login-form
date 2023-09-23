@@ -1,0 +1,142 @@
+*{
+    /* font-family:font-family: 'Poppins', sans-serif; */
+    font-family: 'Ysabeau Infant', sans-serif;;
+}
+
+
+body{
+     background-position: center;
+/* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("bg.png"); */
+background: url(bg.png);
+     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+.container{
+    width: 400px;
+    /* width: 500px; */
+    border: 3px solid black;
+margin: 60px auto;
+border-radius: 15px;
+position: relative;
+/* background:white; */
+background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+backdrop-filter: blur(10px);
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+::placeholder{
+    color: blueviolet;
+    column-gap: 10px;
+    font-size: large;
+}
+h3{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.container form input{
+    margin-bottom: 12px;
+    width: 100%;
+    border: 0;
+    padding: 12px 12px ;
+    border-bottom: 2px solid black;
+    /* border-radius: 12px; */
+    outline: none;
+    background: transparent;
+}
+.container form{
+    /* size: 40px; */
+    text-align:justify;
+    margin: 12px 40px 90px 27px;
+    display:inline-block ;
+}
+.btn {
+    text-align:right;
+    margin: 0px 30px 30px 10px ;
+}
+.btn a button{
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 23px;
+    background:linear-gradient(to left,rgb(179, 136, 218),rgb(126, 0, 245)) ;
+    width: 30%;
+    margin-right: 26px;
+    /* margin-right: -17px; */
+    
+    transition:1s;
+    
+}
+.btn a button:hover{
+    border: 2px solid rgb(184, 131, 233);
+    background: linear-gradient(to right, rgb(241, 0, 181), rgb(15, 13, 13));
+    color: white;
+    transition: 0.5s;
+    
+    margin-right: 26px;
+    
+}
+
+/* ***************************Page 1 idex.html above & below is edu.html************************** */
+
+
+.para1{
+    font-size: larger;
+    text-align: center;
+    margin: 12px 12px 24px 12px ;
+    
+}
+.para1 input{
+    padding: 12px 12px 12px 12px ;
+    font-size: large;
+}
+.select_box{
+    text-align: center;
+    font-size: larger;
+    
+}
+.select_box select{
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 12px ;
+    outline: none;
+    padding: 10px 10px ;
+    background: transparent;
+}
+
+
+
+/* ********************************8********hobby.html below***************************888** */
+
+.para1 input{
+    padding: 12px 12px 12px 12px ;
+}
+
+
+.textarea_ textarea{
+    border: 2px solid black;
+    border-radius: 12px;
+    /* font-size: px; */
+    padding: 12px 12px 12px 12px ;
+}
+.btn input{
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 23px;
+    background:linear-gradient(to left,rgb(179, 136, 218),rgb(126, 0, 245)) ;
+    width: 30%;
+    margin-right: 26px;
+    /* margin-right: -17px; */
+    
+    transition:1s;
+    
+}
+.btn input:hover{
+    border: 2px solid rgb(184, 131, 233);
+    background: linear-gradient(to right, rgb(241, 0, 181), rgb(15, 13, 13));
+    color: white;
+    transition: 0.5s;
+    
+    margin-right: 26px;
+}
